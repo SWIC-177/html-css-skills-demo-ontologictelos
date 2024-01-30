@@ -1,3 +1,5 @@
+@import url('node_modules/modern-normalize/modern-normalize.css');
+
 body {
     font-family: optima,'Times New Roman', Times, serif;
     margin:100px 200px;
@@ -27,4 +29,3 @@ p {
 hr {
     color: black;
 }
-
