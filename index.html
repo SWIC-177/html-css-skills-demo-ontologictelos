@@ -7,8 +7,8 @@
     <link rel="stylesheet" href="./style.css" />
     <title>About Me</title>
   </head>
-  <body>
-    <header class="bg-slate-800 p-20">
+  <body class="bg-gray-700 text-white">
+    <header class="bg-green-950 p-20">
       <img
         src="images/IMG_3507.JPG"
         alt="A abstract photo of Mark P Richter"
@@ -20,7 +20,7 @@
 
     <hr />
     <h1 class="p-10 text-center">About Me</h1>
-    <p class="pl-20 pr-80 text-left">
+    <p class="pl-60 pr-60 text-left">
       I find complex things interesting and fun to investigate thus the question
       of who and what i am is always looming in my head. While asking these
       questions doesn't make me any money coding seems like a fun way to make
@@ -32,7 +32,7 @@
       questions and come to a better understanding of the most basic premises of
       what we believe.
     </p>
-    <p class="pl-20 pr-80 pt-20 text-left">
+    <p class="pb-10 pl-60 pr-60 pt-10 text-left">
       Upon learning more about philosophy the question of theology became
       necessary to answer. Is there a God in all this became a crucial point of
       investigation. Eventually after reading Soren Kierkegaard, I found the
@@ -41,7 +41,7 @@
       himself with socrates in that truth is not something intellectual but
       something more akin to an experienced based phenomena.
     </p>
-    <p class="pl-20 pr-80 pt-20 text-left">
+    <p class="pb-10 pl-60 pr-60 pt-10 text-left">
       What does all this have to do with me though? Ultimately, I am just a
       being looking to understand myself better and in my own conclusions know
       the God that made me. In these investigations ive gained a love for the
@@ -54,7 +54,7 @@
       own experience and creative power to create cool and beautiful things that
       share our own being with others.
     </p>
-    <p class="p-20 pr-80 pt-20 text-left">
+    <p class="pb-10 pl-60 pr-60 pt-10 text-left">
       I also love everything about coffee. Coffee is a good drink even if made
       poorly. It is such a social drink as well, historically coffee shops have
       been in existence in some capacity sense it's inception just as some sort
@@ -64,41 +64,39 @@
       area as they typically have a good varietal of coffee there and sometimes
       they will have a very rare varietal.
     </p>
-    <hr />
-    <h1>How often do you drink coffee?</h1>
-    <hr />
-    <fieldset>
-      <input type="checkbox" name="Never" /> Never
-      <br />
-      <input type="checkbox" name="Sometimes" /> Sometimes
-      <br />
-      <input type="checkbox" name="Everyday" /> Every day
-    </fieldset>
-    <hr />
-    <h1>How often do you read philosophy?</h1>
-    <hr />
-    <fieldset>
-      <input type="checkbox" name="Never" /> Never
-      <br />
-      <input type="checkbox" name="Sometimes" /> Sometimes
-      <br />
-      <input type="checkbox" name="Everyday" /> Every day
-    </fieldset>
-    <fieldset>
-      <legend>Why do you ready philosophy?</legend>
-      <textarea name="comments" id="comments" cols="40" rows="2"> </textarea>
-    </fieldset>
-    <input type="submit" value="submit" /> <input type="reset" />
-    <h1>Contact me</h1>
-    <fieldset>
-      <div class="contact">
-        Name:<input type="text" name="email" id="email" /> E-Mail:
-        <input type="text" />
-      </div>
-      <br />
-      <textarea name="comments" id="inqury" cols="40" rows="2"> </textarea>
-      <br />
-      <input type="submit" value="submit" /> <input type="reset" />
-    </fieldset>
+    <ul class="space-y-4 border-t-2 border-black pb-10 pl-60 pr-60 pt-10"></ul>
+    <div class="justify-center">
+      <hr />
+      <h1 class="text-center">How often do you drink coffee?</h1>
+      <fieldset
+        class="[&>input]:scr-only flex flex-col items-center gap-y-4 pb-10 pt-10"
+      >
+        <div><input type="checkbox" name="Never" /> Never</div>
+
+        <br />
+        <div><input type="checkbox" name="Sometimes" /> Sometimes</div>
+
+        <br />
+        <div><input type="checkbox" name="Everyday" /> Every day</div>
+      </fieldset>
+      <hr />
+      <h1 class="text-center">How often do you read philosophy?</h1>
+      <fieldset
+        class="[&>input]:scr-only flex flex-col items-center gap-y-4 pb-10 pt-10"
+      >
+        <div>
+          <input type="checkbox" name="Never" class="align-middle" /> Never
+        </div>
+        <br />
+        <div><input type="checkbox" name="Sometimes" /> Sometimes</div>
+        <br />
+        <div><input type="checkbox" name="Everyday" /> Every day</div>
+      </fieldset>
+      <input
+        class="items-center justify-center rounded-lg bg-green-950 p-4 font-bold text-white transition-transform hover:scale-110 hover:bg-green-800"
+        type="submit"
+        value="Submit"
+      />
+    </div>
   </body>
 </html>
