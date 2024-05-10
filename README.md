@@ -1,6 +1,7 @@
 # TODO
 
-- update html form's
+- Update html form's
+  - Add a first name, last name, email, and phone number form.
 - 'Select' all of the input fields.
 - 'Select' the submit button.
 - Add event listeners to each input field, such that
