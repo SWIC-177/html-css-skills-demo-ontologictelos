@@ -1,5 +1,6 @@
 # TODO
 
+- update html form's
 - 'Select' all of the input fields.
 - 'Select' the submit button.
 - Add event listeners to each input field, such that
