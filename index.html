@@ -65,39 +65,34 @@
       they will have a very rare varietal.
     </p>
     <ul class="space-y-4 border-t-2 border-black pb-10 pl-60 pr-60 pt-10"></ul>
-    <div class="justify-center">
+    <form class="justify-center">
       <hr />
-      <h1 class="text-center">How often do you drink coffee?</h1>
-      <fieldset
-        class="[&>input]:scr-only flex flex-col items-center gap-y-4 pb-10 pt-10"
-      >
-        <div><input type="checkbox" name="Never" /> Never</div>
+      <h1 class="text-center">Join our E-mail List!</h1>
+      <div>
+        <label> First Name</label>
+        <input />
+      </div>
 
-        <br />
-        <div><input type="checkbox" name="Sometimes" /> Sometimes</div>
+      <div>
+        <label> Last Name </label>
+        <input />
+      </div>
 
-        <br />
-        <div><input type="checkbox" name="Everyday" /> Every day</div>
-      </fieldset>
-      <hr />
-      <h1 class="text-center">How often do you read philosophy?</h1>
-      <fieldset
-        class="[&>input]:scr-only flex flex-col items-center gap-y-4 pb-10 pt-10"
-      >
-        <div>
-          <input type="checkbox" name="Never" class="align-middle" /> Never
-        </div>
-        <br />
-        <div><input type="checkbox" name="Sometimes" /> Sometimes</div>
-        <br />
-        <div><input type="checkbox" name="Everyday" /> Every day</div>
-      </fieldset>
+      <div>
+        <label> E-Mail</label>
+        <input />
+      </div>
+
+      <div>
+        <label> Phone Number </label>
+        <input />
+      </div>
       <input
         class="items-center justify-center rounded-lg bg-green-950 p-4 font-bold text-white transition-transform hover:scale-110 hover:bg-green-800"
         type="submit"
         value="Submit"
       />
-    </div>
+    </form>
     <script src="./main.js" type="module"></script>
   </body>
 </html>
