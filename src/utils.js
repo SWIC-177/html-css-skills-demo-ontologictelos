@@ -1,6 +1,6 @@
 EXPORT const ERRORS = [
     {
-        id: "name",
+    id: "first name",
         msg: "Please enter first name.",
         validate(val) {
             return val.length > 3;
