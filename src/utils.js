@@ -1,4 +1,4 @@
-EXPORT const ERRORS = [
+export const ERRORS = [
     {
     id: "first name",
         msg: "Please enter first name.",
