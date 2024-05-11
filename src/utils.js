@@ -3,8 +3,8 @@ export const ERRORS = [
     id: "first name",
         msg: "Please enter first name.",
         validate(val) {
-            return val.length > 3;
-        }
+      return val.length > 2;
+    },
     },
     {
         id: "last name",
