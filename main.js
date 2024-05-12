@@ -2,7 +2,7 @@
 // []= array
 // ... = spread operator
 // In essence what we are doing is building an array from the "inputs" of the html in my case this is the First name, last name, email, and phone number forms
-import { ERRORS } from "./src/utils";
+import { ERRORS, hideError, renderError } from "./src/utils";
 
 const inputs = [...Array.from(document.querySelectorAll("input"))];
 
