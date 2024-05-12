@@ -28,3 +28,9 @@ export const ERRORS = [
       return validator.isMobilePhone(val, "en-US");
     },
   },
+];
+
+export const hideError = (el) => {
+  el.parentNode.querySelector(".error")?.classList.remove("is-error");
+};
+
