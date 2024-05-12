@@ -19,6 +19,12 @@ export const ERRORS = [
         msg: "Please enter your email.",
         validate(val){
             return val.includes("@");
-        }
     },
-]
+  },
+  {
+    id: "phone",
+    msg: "Please enter a valid phone number.",
+    validate(val) {
+      return validator.isMobilePhone(val, "en-US");
+    },
+  },
